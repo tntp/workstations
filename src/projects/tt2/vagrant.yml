@@ -1,0 +1,23 @@
+core:
+  includes:
+    - components/git/core
+  chef:
+    json:
+      gusztavvargadr_workstations_git:
+        profiles:
+          workspaces:
+            github:
+              address: https://github.com/tntp/Tntp.TeacherTrack2
+              directory: /c/Projects/Tntp.TeacherTrack2
+
+tt2:
+  includes:
+    - projects/github/core
+  chef:
+    json:
+      gusztavvargadr_workstations_git:
+        profiles:
+          workspaces:
+            github:
+              repositories:
+                gitignore:
