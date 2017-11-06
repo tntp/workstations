@@ -22,4 +22,4 @@ w10e:
 w16s:
   includes:
     - components/os/core
-  box: w16s
+  box: w16s-sql17d

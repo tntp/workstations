@@ -1,13 +1,8 @@
 work:
   includes:
     - components/os/w16s
-    - components/vs/v17p
     - stacks/sql/management
     - projects/tt2/tt2
-    - projects/aspnet/logging
-    - projects/identityserver/v4
-    - projects/apache/log4net
-    - projects/identityserver/v3
   default: true
 
 playground:

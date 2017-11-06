@@ -5,4 +5,4 @@ core:
 v14d:
   includes:
     - components/sql/core
-  box: w16s-sql14d
+  box: w16s-sql17d
